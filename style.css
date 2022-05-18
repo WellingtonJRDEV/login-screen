@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  outline-style: none;
+  color: #0d112b;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  outline: none;
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+}
+
+.cadastro-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 3px 5px 3px #aaa;
+  background: rgba(255,255,255,0.4);
+}
+
+.title {
+  text-transform: capitalize;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.entrada {
+  display: flex;
+  width: 90%;
+}
+
+.entrada input {
+  background: rgba(255,255,255,0.1);
+}
+
+.entrada input:focus {
+  background: rgba(255,255,255,0.1);
+}
+
+.botao {
+  display: flex;
+  width: 50%;
+}
+
+.or {
+  text-align: center;
+  border-bottom: 1px solid #aaa;
+  width: 80%;
+}
+
+#msgError {
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80%;
+  margin-bottom: 15px;
+  transition: all 0.3s ease-in-out;
+  display: none;
+}
+
+#msgSuccess {
+  text-align: center;
+  color: #00ff00;
+  background-color: #bbffbb;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80%;
+  margin-bottom: 15px;
+  transition: all 0.3s ease-in-out;
+  display: none;
+}
